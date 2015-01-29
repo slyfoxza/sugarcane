@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sugarcane</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.-">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<style>footer{color:#898989;font-size:80%}</style>
+</head>
+<body>
+	<header class="container">
+		<h1>Sugarcane</h1>
+	</header>
+
+	<section class="container">
+		<h2>Overview</h2>
+		<p>Sugarcane is a map generation framework and runtime environment for Minecraft. Its raison d'&#xEA;tre is
+		primarily focussed on the generation of graphical maps of Minecraft worlds, but it could potentially be used for
+		any kind of analysis/processing of world data.</p>
+		<p>The major design goals for Sugarcane is that it must be <em>extensible</em>, and support efficient use of
+		<em>distributed</em> computational resources.</p>
+		<h3>Extensibility</h3>
+		<p>All aspects of Sugarcane rely on a plugin system, allowing alternate implementations of various functionality
+		to be swapped in and out at runtime, without having to rebuild Sugarcane itself. This makes it easy for third
+		parties to extend Sugarcane's capabilities, and simple for end-users to make use of.</p>
+		<h3>Distribution</h3>
+		<p>Processing Minecraft worlds can frequently be computationally expensive, especially for large worlds. Thus,
+		Sugarcane is designed to support not only vertical scaling, but also allow for horizontal scaling. It is
+		important to note, however, that Sugarcane still fully supports a single-host configuration.</p>
+		<h2>FAQ</h2>
+		<dl>
+			<dt>What is the current status of Sugarcane?</dt>
+			<dd>Sugarcane is currently in the early stages of design and implementation.</dd>
+		</dl>
+	</section>
+
+	<footer class="container">
+		<p>Copyright 2015 Philip Cronje</p>
+	</footer>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
